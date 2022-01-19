@@ -58,7 +58,7 @@ body{
  /* Main-section */
 
  #Home{
-     background: url("images/top_bg.jpeg ") no-repeat center center/cover;
+     background: url("top_bg.jpeg ") no-repeat center center/cover;
      color: rgb(255, 255, 255);
  }
 
@@ -109,7 +109,7 @@ body{
     left: 0px;
 
     /* Specify the background image to be used */
-    background-image: url(images/bottom_bg.jpg);
+    background-image: url(bottom_bg.jpg);
     background-size: cover;
 
     /* Specify the background image */
@@ -143,7 +143,7 @@ body{
     left: 0px;
 
     /* Specify the background image to be used */
-    background-image: url(images/contact_bg.jpeg);
+    background-image: url(contact_bg.jpeg);
     background-size: cover;
     background-position: center;
 
