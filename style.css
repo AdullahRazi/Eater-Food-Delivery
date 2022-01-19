@@ -1,0 +1,219 @@
+body{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+/* Headings */
+.title-heading{
+    font-size: 1.32rem;
+    margin-right: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.big-heading{
+    font-weight:600;
+    font-size: 3rem;
+}
+
+.sub-heading{
+    font-weight:600;
+}
+
+/* Captions */
+.img-caption{
+    padding:2% 0;
+}
+
+/* buttons */
+.top-btn{
+    
+    font-weight: 
+}
+
+
+/* Navbar-customization */
+
+
+.my-nav{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.527);
+    width:100%;
+    z-index: 2;
+}
+
+.nav-links-div .nav-link{
+    color:beige;
+}
+ .title-logo{
+     margin-bottom:7px;
+ }
+
+ .brand-div{
+     text-align: left;
+     padding-left: 0;
+ }
+
+ /* Main-section */
+
+ #Home{
+     background: url("images/top_bg.jpeg ") no-repeat center center/cover;
+     color: rgb(255, 255, 255);
+ }
+
+ .main-content{
+     padding: 260px 24% 200px 24%;
+ }
+
+ /* Services Section */
+
+ #services{  
+ padding:4% 3%;
+ }
+
+ .service-img{
+     width:110px;
+     height:95px;
+     margin-bottom:10px;
+ }
+
+ .service-card{
+     padding:6% 4%;
+     background-color: rgb(218, 216, 216);
+     border:3px solid rgb(116, 2, 2) ;
+     
+     border-radius: 20px;
+ }
+
+ .service-col{
+     padding:20px 2.5%;
+ }
+ 
+ /* Clients Section */
+
+ #clients{
+     padding:4% 10%;
+    
+ }
+ .client-outer-div{
+     position: relative;
+ }
+
+ #clients::before {
+    content: "";
+    position: absolute;
+    top:0;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    /* Specify the background image to be used */
+    background-image: url(images/bottom_bg.jpg);
+    background-size: cover;
+
+    /* Specify the background image */
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.client-col{
+    padding:25px;
+}
+ .client-img{
+     width:50%;
+ }
+
+ .skype-logo{
+    margin-top:35px;
+ }
+
+ .other-logo{
+     margin-top: 5%;
+ }
+
+ /* Contact-Section */
+
+ #contact::before {
+    content: "";
+    position: absolute;
+    top:0;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    /* Specify the background image to be used */
+    background-image: url(images/contact_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+
+    /* Specify the background image */
+    opacity: 0.4;
+    z-index: -1;
+}
+
+#contact{
+    padding:3% 0; 
+}
+.contact-outer-div{
+    position: relative;
+}
+.contact-form{
+    width:40%;
+    margin:auto;
+    text-align: left;
+}
+.contact-form input,.contact-form textarea{
+    font-size:0.8rem;
+    width:100%;
+    padding: 4px 3px;
+    border:0.5px solid rgb(116, 2, 2) ;
+    border-radius: 5px;
+    
+    
+}
+
+.contact-form input[type=submit]{
+    background-color: rgb(170, 60, 9) ;
+    border: 1px solid wheat;
+    height:35px;
+    margin-top: 3%;
+    color: white;
+}
+
+.contact-form input[type=submit]:hover{
+    background-color: rgb(194, 61, 0) ;
+}
+
+.contact-form input:focus,.contact-form textarea:focus{
+    outline: none;
+}
+.contact-form label{
+    font-weight: 700;
+}
+.contact-form textarea{
+    height:50px;
+}
+
+
+ 
+
+
+/* Media queries */
+@media screen and (max-width:770px)
+{
+    .brand-div{
+        text-align: center;
+    }
+    .nav-links-div{
+        justify-content: center;
+    }
+    .main-content{
+        padding-top:200px;
+    }
+   
+    .contact-form{
+        width: 100%;
+        padding:15px 5%;
+    }
+}
